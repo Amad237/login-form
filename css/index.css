@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+PE:wght@100..400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    /* font-family: "Playwrite PE", cursive; */
+}
+body{
+    background-color: black;
+    color: hsla(208, 100%, 97%, 0.678);
+   
+}
+h1{
+    font-size: 65px;
+}
+.tof{
+    margin-top: 1rem;
+    height: 25rem;
+    width: 32.8%;
+    background-image: url(../image/Dadju.jfif);
+    background-position: center;
+    background-size: cover;
+    border-radius: 360px;
+}
+.texte{
+    height: 19.5rem;
+    width: 70%;
+    margin-top: 1rem;
+   
+}
+.texte h1{
+    font-size: 35px;
+    color: #ffffff;
+}
+.texte span{
+  text-align: center;
+}
+
+p {
+    text-align: left;
+    width: 100%; 
+}
+section{
+    height: 110rem;
+    width: 100%;
+}
+section h1{
+    color: #ffffff;
+    font-size: 35px;
+    margin-top: 1rem;
+}
+.jeun1{
+    height: 28rem;
+    width: 63%;
+    display: flex;
+    margin-top: 1rem;
+
+}
+.photo{
+    flex: 1;
+    background-image: url(../image/athlete.png);
+    background-size: contain;
+}
+.phrase{
+    flex: 1;
+}
+.carriere{
+    height: 28rem;
+    width: 63%;
+    display: flex;
+    margin-top: 1rem;
+    
+}
+.photo2{
+    flex: 4;
+    background-image: url(../image/dadjuchante.jfif);
+    background-size: cover;
+    background-position: center;
+    background-color: aliceblue;
+}
+.phrase2{
+    flex: 4;
+   
+}
+.mil{
+    flex: 0.2;
+}
+.heritage{
+    height: 28rem;
+    width: 63%;
+    display: flex;
+    margin-top: 1rem;
+    
+}
+.photo3{
+    flex: 4;
+    background-image: url(../image/dadjutayc.jfif);
+    background-size: cover;
+    background-position: center;
+    background-color: aliceblue;
+}
+.phrase3{
+    flex: 4;
+   
+}
+.mil{
+    flex: 0.2;
+}
+.citation{
+    height: 7rem;
+    width: 70%;
+    background-color: hsla(208, 92%, 35%, 0.525);
+    margin-top: 1rem;
+    border-radius: 19px;
+    display: flex;
+    align-items: center;
+}
+.citation blockquote{
+  font-size: 25px;
+}
+.dernier{
+    height: 15rem;
+    width: 60%;
+    
+}
+.dernier h1{
+    font-size: 35px;
+    text-align: none;
+}
+.lesim{
+  height: 5rem;
+  width: 60%;
+  /* background-color: #ffffff; */
+  display: flex;
+  justify-content: space-around;
+  
+}
+.facebook{
+    height: 4rem;
+    width: 13%;
+    background-image: url(../image/icone1.png);
+    background-position: center;
+    background-size: cover;
+    margin-top: 1rem;
+    border-radius: 360px;
+}
